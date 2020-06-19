@@ -1,0 +1,7 @@
+nome = input('Digite seu nome completo: ').strip()
+print('Em maiúsculas: {}'.format(nome.upper()))
+print('Em minúsculas: {}'.format(nome.lower()))
+ql = len(nome.replace(' ', ''))
+print(f'Quantidade de letras no nome: {ql}')
+qlpm = len(nome.split()[0])
+print(f'Quantidade de letras no primeiro nome: {qlpm}')

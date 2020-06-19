@@ -1,0 +1,7 @@
+numb = (input('Digite um número:'))
+num = '000' + str(numb)
+u = (num[-1])
+d = (num[-2])
+c = (num[-3])
+um = (num[-4])
+print('Unidade: {} \nDezena: {} \nCentena: \nUnidade de milhar: {}'.format(u, d, c, um))
