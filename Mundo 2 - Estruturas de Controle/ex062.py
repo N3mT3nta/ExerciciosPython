@@ -1,5 +1,7 @@
-num = int(input('Digite um número: '))
-ant1 = 0
-ant2 = 0
+ptermo = int(input('Primeiro termo: '))
+razao = int(input('Razão: '))
+maistermos = 1
 
-while num != 0:
+while maistermos != 0:
+    print(ptermo, end=' → ')
+    ptermo = ptermo + razao

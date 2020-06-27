@@ -25,7 +25,7 @@ O que deseja?
 
     elif ação == 2:
         print()
-        print(f'O produto {valor1} e {valor2} é {valor1 * valor2}')
+        print(f'O produto de {valor1} e {valor2} é {valor1 * valor2}')
         print()
 
     elif ação == 3:

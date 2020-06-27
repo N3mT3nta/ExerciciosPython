@@ -1,14 +1,14 @@
 #Aprimoramento do ex051
 
 ptermo = int(input('Digite o primeiro termo: '))
-razão = int(input('Digite a razão: '))
+razao = int(input('Digite a razão: '))
 c = 1
 
-print()
-
 while c < 11:
-    termos = razão * c
-    print(f'{termos}', end=" → ")
-    c += 1
-print('FIM')
+    print(ptermo, end='')
 
+    if c < 10:
+        print(' → ', end='')
+
+    c += 1
+    ptermo += razao

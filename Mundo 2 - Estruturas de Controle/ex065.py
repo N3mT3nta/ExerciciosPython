@@ -1,16 +1,26 @@
-valores = []
-resposta = 0
-c = 10
+maior = 0
+menor = 0
+continuar = 'S'
+soma = 0
+c = 0
 
-print('\033[32m')
+while continuar == 'S':
+    num = int(input('Digite um número: '))
+    soma += num
+    continuar = input('Deseja continuar? [S/N]: ').strip().upper()
+    c += 1
 
-#while resposta == 0:
-#    print('''
-#[ 1 ] Inserir número
-#[ 2 ] Sair
-#
-#''')
+    if num > maior:
+        maior = num
+    if c == 1:
+        menor = num
+    if num < menor:
+        menor = num
 
-while resposta == 0:
-    c = c ** 23489343274895278504
-    print(c)
+media = soma / c
+
+print(f'''
+Você digitou {c} números
+A média é {media}
+O maior valor foi {maior}
+O menor valor foi {menor}''')
