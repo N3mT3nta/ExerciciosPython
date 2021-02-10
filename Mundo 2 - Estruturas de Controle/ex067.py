@@ -18,8 +18,12 @@ while True:
 {num} x 6 = {num * 6}
 {num} x 7 = {num * 7}
 {num} x 8 = {num * 8}
-{num} x 8 = {num * 8}
 {num} x 9 = {num * 9}
 {num} x 10 = {num * 10}
 ''')
+
+'''for c in range(1,11):
+    print(f'{num} x {c} = {num * c}')'''
+
+
 print('\nFoi um prazer te ter por aqui :)')
